@@ -22,10 +22,9 @@
 //3)fully qualified name
 
 package Car;
-import Vehicle.TestPack1;
 public class TestPack{
     public static void main(String[] args) {
-        TestPack1 obj=new TestPack1();
+        Vehicle.TestPack1 obj=new Vehicle.TestPack1();
         obj.pack1();
     }
 }
